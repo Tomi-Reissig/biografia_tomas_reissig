@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Biografía</title>
+    <style>
+        #biografiaInicial {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .Texto,
+        #tops {
+            width: 650px;
+            height: 110px;
+            background-color: #cccccc;
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        #Texto2 {
+            height: 90px;
+            margin-left: auto;
+        }
+
+        #Texto3 {
+            height: 90px;
+        }
+
+        #tops {
+            width: auto;
+            height: 150px;
+            display: flex;
+            /* Hace que los hijos se acomoden en fila */
+            justify-content: space-around;
+            /* Espacio entre ellos de manera uniforme */
+            align-items: center;
+            /* Centra verticalmente */
+        }
+
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        img {
+            width: 175px;
+            height: 175px;
+            border-radius: 50%;
+            object-fit: cover;
+            /* Para que la imagen no se deforme */
+            display: block;
+            /*convierte la imagen en un "bloque" para que pueda centrarse.*/
+            margin: 0 auto;
+        }
+
+        #deportes {
+            display: flex;
+            /* Hace que los hijos se acomoden en fila */
+            justify-content: space-around;
+            /* Espacio entre ellos de manera uniforme */
+        }
+
+        #basquet,
+        #futbol,
+        #roller_hockey {
+            border: 2px solid black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 350px;
+            border-radius: 10px;
+        }
+
+        .deporte p,
+        .deporte h3 {
+            text-align: center;
+            width: 250;
+        }
+
+        .Redes a{
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="biografiaInicial">
+        <h1 style="font-family:cursive; text-align: center;">Tomás Reissig</h1>
+        <div class="Texto" id="Texto1">
+            <p>Me llamo Tomás, soy un chico de 17 años, nací el 4 de diciembre de 2007 en Neuquén Argentina. Vivo con mi
+                familia, que está conformada por mi papá llamado Joaquín, mi mamá llamada Guadalupe y mis dos hermanos, Lucas el
+                más grande y Benjamín el más chico. Siempre tuve una familia numerosa, de la parte de mi mamá tengo 3 tíos,
+                3 tías y 14 primos; Y de la parte de mi papá tengo 5 tías y 7 primos. Y a su vez mis papas tienen muchos
+                más tíos y primos.
+            </p>
+        </div>
+        <div class="Texto" id="Texto2">
+            <p>De chiquito yo vivía en un departamento que le alquilábamos a mis abuelos y después nos fuimos a vivir a una
+                casa propia de mis papás, la cual sigo viviendo hoy en día. Este barrio en el que vivo siempre me gusto
+                porque siempre tuve amigos de mi edad con los que salíamos a jugar afuera a las escondidas, mundialitos de
+                futbol o cualquier cosa que se nos ocurría en el momento.
+            </p>
+        </div>
+        <div class="Texto" id="Texto3">
+            <p>Actualmente estoy estudiando en una escuela pública de Neuquén llamada EPET Nº20. Antes iba a una escuela
+                llamada María Auxiliadora pero en segundo año mis papás decidieron cambiarme porque no estábamos haciendo muchas
+                cosas en clase y además vieron que la EPET tenía una orientación que a mi me gusta, que es Técnico en programación.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <h2 style="font-size: 30px;">Mis Deportes</h2>
+    </p>
+    <div id="deportes">
+        <div id="basquet" class="deporte">
+            <img src="Imagenes/Basquet.jpg" alt="Basquet">
+            <h3>BASQUET</h3>
+            <P>Basquet lo empece porque unos amigos del barrio hacian este deporte y además quedaba cerca de mi casa.
+                Entonces aprovehe para ir y hacer algo físico. <br>En este deporte estuve 3 años (desde los 5 hasta los
+                8).
+            </P>
+            <p>Este deporte consiste que dos equipos de cinco jugadores intentan meter una pelota en el aro del equipo
+                contrario para sumar puntos. Gana el equipo que más puntos consigue al final del partido.
+            </p>
+        </div>
+        <div id="futbol" class="deporte">
+            <img src="Imagenes/Futbol.jpg" alt="Futbol">
+            <h3>FÚTBOL</h3>
+            <p>Fútbol hice desde los 8 hasta los 11. Este deporte lo empece porque con los del barrio jugabamos torneos
+                de futbol entre nosotros y me empezo a interesar, entonces decidí empezar a entrenarlo en una escuelita
+                con mis amigos del barrio.
+            </p>
+            <p>El fútbol consiste en que dos equipos de once jugadores intentan meter una pelota en el arco rival para
+                hacer goles; gana el que más goles consigue.
+            </p>
+        </div>
+        <div id="roller_hockey" class="deporte">
+            <img src="Imagenes/roller-hockey.jpg" alt="Roller Hockey">
+            <h3>ROLLER HOCKEY</h3>
+            <p>El hockey sobre rollers lo conocí gracias a mi primo que lo jugaba, lo fuí a ver a un torneo y me encantó
+                el deporte. Entonces a los 11 años decidí dejar fútbol por Roller Hockey, y me encanto. Este es el
+                deporte que hago
+                hasta hoy en día. <br> En este deporte fui en el que más destaqué, incluso llegue a estar en las pruebas
+                para la selección argentina.
+            </p>
+            <p>El roller hockey consiste en que dos equipos, patinando sobre rollers, usan palos para meter un tejo en
+                el arco contrario; gana quien más goles hace.
+            </p>
+        </div>
+    </div>
+    <div id="tops">
+        <div id="hobies">
+            <h2>Mis Hobies</h2>
+            <ul>
+                <li>Jugar juegos en la compu.</li>
+                <li>Juntarme con amigos.</li>
+                <li>Jugar hockey.</li>
+                <li>Andar a caballo.</li>
+            </ul>
+        </div>
+        <div id="comidas_fav">
+            <h2>Mis comidas favoritas</h2>
+            <ul>
+                <li>Rabas.</li>
+                <li>Milanesas con puré.</li>
+                <li>Sorrentinos.</li>
+                <li>Asado.</li>
+            </ul>
+        </div>
+        <div id="redes">
+            <h2>La redes sociales que más uso</h2>
+            <ul>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.tiktok.com">TikTok</a></li>
+                <li><a href="https://www.whatsapp.com">WhatsApp</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
